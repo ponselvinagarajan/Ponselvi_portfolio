@@ -1,0 +1,601 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic;
+}
+.container{
+    width: 90%;
+    margin: auto 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col_1{
+	 
+    width:8.33%;
+    padding:0 15px;
+}
+.col_2{
+    
+    width:16.66%;
+    padding:0 15px;
+}
+.col_3{
+    
+    width:25%;
+    padding:0 15px;
+   
+}
+.col_4{
+    
+    width:33.33%;
+    padding:0 15px;
+}
+.col_5{
+    
+    width:41.67%;
+    padding:0 15px;
+}
+.col_6{
+    
+    width:50%;
+    padding:0 15px;
+}
+.col_7{
+    
+    width:58.33%;
+    padding:0 15px;
+}
+.col_8{
+    
+    width:66.66%;
+    padding:0 15px;
+}
+.col_9{
+    
+    width:75%;
+    padding:0 15px;
+}
+.col_10{
+    
+    width:83.33%;
+    padding:0 15px;
+}
+.col_11{
+    
+    width:91.66%;
+    padding:0 15px;
+}
+.col_12{
+    
+    width:100%;
+    padding:0 15px;
+}
+#Header_section{
+    padding: 30px 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    text-align: center;
+}
+.header_name{
+    margin-left: 30px;
+    color: rgb(5, 3, 50);
+}
+.header_list a{
+    text-decoration: none;
+    color: rgb(5, 3, 50);
+}
+.header_list ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.header_list{
+    margin-top: 8px;
+}
+#Home_section{
+    background: linear-gradient(#00000096,#000000d1), url(web5.jpg);
+    ;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}  
+
+#Home_section h2{
+   color: white;
+   font-weight: 500;
+   font-size: 40px;
+   text-align: center;
+   margin-top: 200px;
+   margin-left: 400px;
+   animation:type 8s linear 0s infinite ;
+   overflow: hidden;
+   white-space: nowrap;
+}
+@keyframes type {
+    from {
+      width: 0;
+    }
+    to {
+      width: 42%;
+    }
+  }
+#Home_section p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 500px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: show 8s linear  0s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes show {
+    from{
+        width: 0;
+    }
+    to{
+        width: 23%;
+    }
+}
+.home_btn button{
+    padding:12px 18px ;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.home_btn a{
+    margin-left: 45%;
+    color:rgb(5, 3, 50);
+    font-weight: 400;
+}
+.home_btn button:hover{
+    background-color:rgb(5, 3, 50);
+    color: white;
+}
+#About_section{
+    background-color: rgb(200, 238, 200);
+}
+#About_section h1{
+    padding: 40px 0;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(5, 3, 50);
+}
+.About_head{
+    position: relative;
+}
+.About_head::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    top: 58px;
+    right: 485px;
+    height: 2px;
+    background-color:  rgb(5, 3, 50);
+}
+.About_head::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    top: 58px;
+    left: 485px;
+    height: 2px;
+    background-color:  rgb(5, 3, 50);
+
+}
+.About_content{
+    margin-left: 10%;
+}
+.About_content p{
+    font-size: 22;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgb(60, 60, 60);
+    word-spacing: 10px;
+}
+.About_img img{
+    width:300px;
+    height: 300px;
+    border-radius: 150px;
+    border: 2px solid rgb(5, 3, 50);
+}
+.About_img{
+    margin-left: 50%;
+}
+.About_detail{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.About_detail p{
+    padding-top: 10px;
+}
+#Education_section h1{
+    padding: 40px 0;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(5, 3, 50);
+}
+.education_data{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+.data{
+   margin-left: 100px;
+   position: relative;
+}
+.data h3{
+    color:rgb(5, 3, 50) ;
+    padding: 10px 0;
+    font-size: 22px;
+}
+.data h3::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    left: -30px;
+    top: 14px;
+    background-color: rgb(5, 3, 50);
+}
+.data h3::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    left: -23px;
+    top: 33px;
+    border-left: 2px solid black;
+}
+.data p{
+    padding: 8px 0;
+    font-size: 20px;
+}
+.data b{
+    font-size: 18px;
+    padding: 8px 0;
+}
+.mark{
+    right: 100px;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+}
+.data_head::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    top: 58px;
+    right: 412px;
+    height: 2px;
+    background-color:  rgb(5, 3, 50);
+}
+.data_head::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    top: 58px;
+    left: 412px;
+    height: 2px;
+    background-color:  rgb(5, 3, 50);
+}
+.data_head{
+    position: relative;
+}
+#Skill_section{
+    background-color: rgb(200, 238, 200);
+    margin-top: 30px;
+}
+#Skill_section h1{
+    text-align: center;
+    color: rgb(5, 3, 50);
+    padding-top: 40px;
+    margin-left: 150px;
+}
+.skill_head{
+    position: relative;
+}
+.skill_head::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    top: 54px;
+    right: 524px;
+    height: 2px;
+    background-color:  rgb(5, 3, 50);
+}
+.skill_head::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    top: 54px;
+    left: 524px;
+    height: 2px;
+    background-color:  rgb(5, 3, 50);
+}
+.skill_data{
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.bar2{
+    margin-left: 100px;
+    width: 100%;
+}
+.bar1{
+    margin-left: 20px;
+    width: 100%;
+}
+.bar span{
+    height: 8px;
+    float: left;
+}
+.html, .css, .js, .reactjs, .sql, .python, .excel, .bootstrap {
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.bar{
+    display: block;
+    height: 8px;
+    border: 1px solid  rgb(5, 3, 50);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color:  rgb(5, 3, 50);
+    transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+}
+
+.html, .css, .js, .reactjs, .sql, .python, .excel, .bootstrap {
+    height: 100%;
+    background-color:rgb(229, 51, 89);
+    width: 0;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.html {
+    animation-name: html;
+}
+.css {
+    animation-name: css;
+}
+.js {
+    animation-name: js;
+}
+.reactjs {
+    animation-name: reactjs;
+}
+.sql {
+    animation-name: sql;
+}
+.python {
+    animation-name: python;
+}
+.excel {
+    animation-name: excel;
+}
+.bootstrap {
+    animation-name: bootstrap;
+}
+@keyframes html {
+    0% { width: 0; }
+    100% { width: 90%; }
+}
+@keyframes css {
+    0% { width: 0; }
+    100% { width: 95%; }
+}
+@keyframes js {
+    0% { width: 0; }
+    100% { width: 60%; }
+}
+@keyframes reactjs {
+    0% { width: 0; }
+    100% { width: 50%; }
+}
+@keyframes sql {
+    0% { width: 0; }
+    100% { width: 75%; }
+}
+@keyframes python {
+    0% { width: 0; }
+    100% { width: 50%; }
+}
+@keyframes excel {
+    0% { width: 0; }
+    100% { width: 85%; }
+}
+@keyframes bootstrap {
+    0% { width: 0; }
+    100% { width: 80%; }
+}
+#certification_section{
+    margin-top: 30px;
+}
+#certification_section h1{
+    text-align: center;
+    color: rgb(5, 3, 50);
+    padding-top: 40px;
+    margin-left: 150px;
+}
+.certificate_head{
+    position: relative;
+}
+.certificate_head::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    top: 54px;
+    right: 466px;
+    height: 2px;
+    background-color:  rgb(5, 3, 50);
+}
+.certificate_head::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    top: 54px;
+    left: 466px;
+    height: 2px;
+    background-color:  rgb(5, 3, 50);
+}
+.certificate_detail{
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 1px solid rgb(200, 238, 200);
+    height: 300px;
+    width: 400px;
+    box-shadow: 10px 15px 15px 10px rgba(143, 143, 143, 0.612);
+    border-radius: 10px;
+    background-color: rgb(200, 238, 200);
+}
+.certificate_detail h2{
+    color:  rgb(5, 3, 50);
+    padding: 20px 15px;
+    text-align: left;
+}
+.certificate_detail p{
+    font-size: 18px;
+    padding: 10px 15px;
+}
+.certificate_detail button{
+    padding: 8px 0px;
+    border-radius: 10px;
+    border: 2px solid rgb(5, 3, 50);
+    text-align: end;
+    /* margin:10px 15px; */
+    margin-bottom: 10px;
+}
+.certificate_detail a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(5, 3, 50) ;
+    padding: 10px 18px;
+    border-radius: 10px;
+
+}
+.certificate_detail button:hover a{
+    background-color: rgb(5, 3, 50) ;
+    color: white;
+    transition: 1s;
+}
+.btn3{
+   margin-left: 15px;
+   margin-top: 30px;
+}
+.btn2{
+    margin-left: 15px;
+    margin-top: 50px;
+ }
+ .btn1{
+    margin-left: 15px;
+    margin-top: 55px;
+ }
+#contact_section{
+    margin-top: 30px;
+    padding: 30px 0;
+    background-color: rgb(200, 238, 200);
+} 
+#contact_section h1{
+    text-align: center;
+    color: rgb(5, 3, 50);
+    padding-top: 40px;
+    margin-left: 200px;
+}
+.contact_head{
+    position: relative;
+}
+.contact_head::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    top: 54px;
+    right: 486px;
+    height: 2px;
+    background-color:  rgb(5, 3, 50);
+}
+.contact_head::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    top: 54px;
+    left: 486px;
+    height: 2px;
+    background-color:  rgb(5, 3, 50);
+}
+.contact_data{
+    margin-top: 40px;
+    margin-left: 220px;
+}
+.contact_detail input{
+    width: 90%;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 10px 0;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid white;
+}
+#message{
+    width: 90%;
+    padding: 10px 10px;
+    font-size: 18px;
+    color: rgb(140, 137, 137);
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid white;
+}
+.btn{
+    margin-top: 30px;
+    border: 1px solid  rgb(200, 238, 200);
+    background-color: 1px solid  rgb(200, 238, 200);
+}
+.btn button{
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid  rgb(200, 238, 200);
+    width: 90%;
+}
+.contact_data1{
+    margin-top: 40px;
+}
+.contact_data1 h2{
+    color:  rgb(5, 3, 50);
+    padding: 10px 0;
+}
+.contact_data1 p{
+    color: rgb(140, 137, 137);
+    padding: 10px 0;
+}
+label{
+    color: rgb(63, 61, 61);
+    margin: 20px 0;
+}
+.contact_data1 input{
+    background-color: rgb(200, 238, 200) ;
+    border: 1px solid  rgb(200, 238, 200);
+    font-size: 18px;
+    padding: 10px 0;
+}
+.btn button:hover{
+    background-color:  rgb(5, 3, 50);
+    color: white;
+    transition: 1s;
+}
