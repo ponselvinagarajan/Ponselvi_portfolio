@@ -136,7 +136,7 @@
     overflow: hidden;
     white-space: nowrap;
     animation: show 8s ease-in-out forwards;
-    animation-timing-function: ease-in-out;
+/*     animation-timing-function: ease-in-out; */
 }
 @keyframes show {
     from{
@@ -346,7 +346,7 @@
     float: left;
 }
 .html, .css, .js, .reactjs, .sql, .python, .excel, .bootstrap {
-    animation-duration: 3s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
 }
 .bar{
@@ -363,7 +363,7 @@
     height: 100%;
     background-color:rgb(229, 51, 89);
     width: 0;
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
     /* animation-iteration-count: infinite; */
