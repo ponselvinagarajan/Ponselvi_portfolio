@@ -116,7 +116,7 @@
    text-align: center;
    margin-top: 200px;
    margin-left: 400px;
-   animation:type 8s linear 0s infinite ;
+   animation:type 8s ease-in-out forwards ;
    overflow: hidden;
    white-space: nowrap;
 }
@@ -135,8 +135,8 @@
     margin-left: 500px;
     overflow: hidden;
     white-space: nowrap;
-    animation: show 8s linear  0s infinite;
-    animation-timing-function: ease-in-out;
+    animation: show 8s ease-in-out forwards ;
+/*     animation-timing-function: ease-in-out; */
 }
 @keyframes show {
     from{
@@ -366,7 +366,7 @@
     animation-duration: 4s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+/*     animation-iteration-count: infinite; */
 }
 .html {
     animation-name: html;
