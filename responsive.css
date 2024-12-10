@@ -1,0 +1,153 @@
+@media (min-width:320px) and (max-width:767px) {
+    .head_data{
+        display:none;
+    }
+    .container{
+		width:100%;
+		padding:0px 10px;
+	}
+    .header_name h2{
+        font-size: 14px;
+    }
+    .home_btn{
+        width: 100%;   
+    }
+    .col-12{
+        width: 100%;
+    }
+    .About_img{
+        margin-left: 15%;
+    }
+    .About_head::after{
+        content: "";
+        position: absolute;
+        width: 10px;
+        top: 58px;
+        right: 485px;
+        height: 2px;
+        background-color:  rgb(5, 3, 50);
+        display: none;
+    }
+    .About_head::before{
+        content: "";
+        position: absolute;
+        width: 40px;
+        top: 58px;
+        left: 485px;
+        height: 2px;
+        background-color:  rgb(5, 3, 50);
+        display: none;
+    }
+    .data_head::after{
+        content: "";
+        position: absolute;
+        width: 40px;
+        top: 58px;
+        right: 412px;
+        height: 2px;
+        background-color:  rgb(5, 3, 50);
+        display: none;
+    }
+    .data_head::before{
+        content: "";
+        position: absolute;
+        width: 40px;
+        top: 58px;
+        left: 412px;
+        height: 2px;
+        background-color:  rgb(5, 3, 50);
+        display: none;
+
+    }
+    .mark{
+        left: 124px;
+        position: absolute;
+        font-size: 18px;
+        font-weight: 700;
+        /* top: 150%; */
+        display: none;
+    }
+    .skill_head::after{
+        content: "";
+        position: absolute;
+        width: 40px;
+        top: 54px;
+        right: 524px;
+        height: 2px;
+        background-color:  rgb(5, 3, 50);
+        display: none;
+    }
+    .skill_head::before{
+        content: "";
+        position: absolute;
+        width: 40px;
+        top: 54px;
+        left: 524px;
+        height: 2px;
+        background-color:  rgb(5, 3, 50);
+        display: none;
+    }
+    .bar2{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .bar1{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .certificate_head::after{
+        content: "";
+        position: absolute;
+        width: 40px;
+        top: 54px;
+        right: 466px;
+        height: 2px;
+        background-color:  rgb(5, 3, 50);
+        display: none;
+    }
+    .certificate_head::before{
+        content: "";
+        position: absolute;
+        width: 40px;
+        top: 54px;
+        left: 466px;
+        height: 2px;
+        background-color:  rgb(5, 3, 50);
+        display: none;
+    }
+    .certificate_detail{
+        margin-left: 0px;
+        margin-top: 50px;
+        border: 1px solid rgb(200, 238, 200);
+        height: 300px;
+        width: 400px;
+        box-shadow: 10px 15px 15px 10px rgba(143, 143, 143, 0.612);
+        border-radius: 10px;
+        background-color: rgb(200, 238, 200);
+    }
+    .contact_head::after{
+        content: "";
+        position: absolute;
+        width: 40px;
+        top: 54px;
+        right: 486px;
+        height: 2px;
+        background-color:  rgb(5, 3, 50);
+        display: none;
+    }
+    .contact_head::before{
+        content: "";
+        position: absolute;
+        width: 40px;
+        top: 54px;
+        left: 486px;
+        height: 2px;
+        background-color:  rgb(5, 3, 50);
+        display: none;
+    }
+    .contact_data{
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 100%;
+    }
+}
